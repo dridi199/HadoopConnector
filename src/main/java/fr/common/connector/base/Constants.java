@@ -1,4 +1,4 @@
-package a.b.c.common.connector.base;
+package fr.common.connector.base;
 
 
 /**

@@ -1,8 +1,8 @@
-package a.b.c.common.connector.hadoop;
+package fr.common.connector.hadoop;
 
-public class HiveConnector extends AbstractHadoopConnector {
+public class HbaseConnector extends AbstractHadoopConnector{
 
-	public HiveConnector(String core, String base) {
+	public HbaseConnector(String core, String base) {
 		super(core, base);
 		// TODO Auto-generated constructor stub
 	}

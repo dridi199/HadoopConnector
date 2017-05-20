@@ -1,4 +1,4 @@
-package a.b.c.common.connector;
+package fr.common.connector;
 
 /**
  * Abstraction Interface for data connectors

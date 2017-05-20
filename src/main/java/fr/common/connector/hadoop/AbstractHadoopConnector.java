@@ -1,8 +1,8 @@
-package a.b.c.common.connector.hadoop;
+package fr.common.connector.hadoop;
 
 import javax.security.auth.login.Configuration;
 
-import a.b.c.common.connector.Connectable;
+import fr.common.connector.Connectable;
 
 /**
  * Abstract representation of Hadoop HDFS based connectors such as HDFS, Hive or
@@ -26,19 +26,15 @@ public abstract class AbstractHadoopConnector implements Connectable {
    * @param user      kerberos user identifier
    * @param keytab    kerberos keytab file path
    */
-  public AbstractHadoopConnector(String core,
-                                 String base,
-                                 String krb5,
-                                 String user,
-                                 String keytab) 
-  {
-    this.coreSiteFile = core;
-    this.baseSiteFile = base;
-    this.krb5File = krb5;
-    this.user = user;
-    this.keytab = keytab;
-    secured = true;
-  }
+//  public AbstractHadoopConnector(String core, String base, String krb5, String user, String keytab) 
+//  {
+//    this.coreSiteFile = core;
+//    this.baseSiteFile = base;
+//    this.krb5File = krb5;
+//    this.user = user;
+//    this.keytab = keytab;
+//    secured = true;
+//  }
 
   /**
    * Create a non secured connection
