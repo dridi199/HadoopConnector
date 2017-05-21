@@ -15,6 +15,13 @@
   </properties>
 
   <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-compress -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-compress</artifactId>
+    <version>1.8</version>
+</dependency>
+  
   <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-hdfs -->
 <dependency>
     <groupId>org.apache.hadoop</groupId>
