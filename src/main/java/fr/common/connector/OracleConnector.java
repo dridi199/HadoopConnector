@@ -5,7 +5,6 @@ import fr.edf.dco.common.connector.base.Constants;
 /**
  * Oracle database access connector
  * 
- * @author fahd-externe.essid@edf.fr
  */
 public class OracleConnector extends AbstractJdbcConnector {
 
