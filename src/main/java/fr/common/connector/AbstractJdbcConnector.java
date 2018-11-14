@@ -16,7 +16,6 @@ import fr.edf.dco.common.connector.base.ConnectorException;
  * JDBC compatible databases connector abstraction
  * All Jdbc like connector should extend this class
  * 
- * @author fahd-externe.essid@edf.fr
  */
 public abstract class AbstractJdbcConnector implements Connectable {
   
